@@ -20,7 +20,7 @@ class NumberDisplayAdapter(val items: Array<Int>) :
     }
 
     override fun onBindViewHolder(holder: NumberViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.textView.text = items[position].toString()
     }
 
     //Step 3b: Complete function definitions for adapter
