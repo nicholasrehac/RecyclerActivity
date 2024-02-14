@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         //Step 4: Provide a RecyclerView.Adapter
-        val numbers = Array<Int>(50) { i -> (i + 1) * 2 }
+        val numbers = Array<Int>(50) { i -> i + 1}
         recyclerView.adapter = NumberDisplayAdapter(numbers)
     }
 }
